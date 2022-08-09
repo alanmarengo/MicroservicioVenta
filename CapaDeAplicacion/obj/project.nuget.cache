@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bEVwx0hWlanO1sxTdEc8hb9vWY4rARO9h7EefherSl1++j9/t6wCOVp7xBW/DuMsL+BPhI3Zo95e5JdRnj/zZA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaDeAplicacion\\CapaDeAplicacion.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\alanm\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
