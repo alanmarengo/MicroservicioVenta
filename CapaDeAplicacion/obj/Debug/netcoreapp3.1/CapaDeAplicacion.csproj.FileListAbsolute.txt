@@ -73,3 +73,16 @@ C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microse
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.csproj.CopyComplete
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.dll
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.pdb
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeAplicacion\bin\Debug\netcoreapp3.1\CapaDeAplicacion.deps.json
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeAplicacion\bin\Debug\netcoreapp3.1\CapaDeAplicacion.dll
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeAplicacion\bin\Debug\netcoreapp3.1\CapaDeAplicacion.pdb
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeAplicacion\bin\Debug\netcoreapp3.1\CapaDeDominio.dll
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeAplicacion\bin\Debug\netcoreapp3.1\CapaDeDominio.pdb
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.csproj.AssemblyReference.cache
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.AssemblyInfoInputs.cache
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.AssemblyInfo.cs
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.csproj.CopyComplete
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.dll
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.pdb

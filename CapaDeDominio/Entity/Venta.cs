@@ -8,16 +8,8 @@ namespace CapaDeDominio.Entity
     {
         public int VentaId {get;set;}
         public int Id_carrito{get;set;}
+        public bool Aprobada { get; set; }
         public DateTime FechaVenta{get;set;}
-        
-       
-          
-        
-
-       
-
-
-
-       
+             
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\API-Venta\\API-Venta.csproj": {}
+    "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\API-Venta\\API-Venta.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\API-Venta\\API-Venta.csproj": {
+    "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\API-Venta\\API-Venta.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\API-Venta\\API-Venta.csproj",
+        "projectUniqueName": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\API-Venta\\API-Venta.csproj",
         "projectName": "API-Venta",
-        "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\API-Venta\\API-Venta.csproj",
+        "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\API-Venta\\API-Venta.csproj",
         "packagesPath": "C:\\Users\\alanm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\API-Venta\\obj\\",
+        "outputPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\API-Venta\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,11 +32,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaAccesoDatos\\CapaAccesoDatos.csproj": {
-                "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaAccesoDatos\\CapaAccesoDatos.csproj"
+              "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaAccesoDatos\\CapaAccesoDatos.csproj": {
+                "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaAccesoDatos\\CapaAccesoDatos.csproj"
               },
-              "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaDeAplicacion\\CapaDeAplicacion.csproj": {
-                "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaDeAplicacion\\CapaDeAplicacion.csproj"
+              "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeAplicacion\\CapaDeAplicacion.csproj": {
+                "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeAplicacion\\CapaDeAplicacion.csproj"
               }
             }
           }
@@ -84,6 +84,10 @@
             "SqlKata.Execution": {
               "target": "Package",
               "version": "[2.2.0, )"
+            },
+            "ppioli.MercadoPago-SDK": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [
@@ -108,14 +112,14 @@
         }
       }
     },
-    "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaAccesoDatos\\CapaAccesoDatos.csproj": {
+    "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaAccesoDatos\\CapaAccesoDatos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaAccesoDatos\\CapaAccesoDatos.csproj",
+        "projectUniqueName": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaAccesoDatos\\CapaAccesoDatos.csproj",
         "projectName": "CapaAccesoDatos",
-        "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaAccesoDatos\\CapaAccesoDatos.csproj",
+        "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaAccesoDatos\\CapaAccesoDatos.csproj",
         "packagesPath": "C:\\Users\\alanm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaAccesoDatos\\obj\\",
+        "outputPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaAccesoDatos\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -136,11 +140,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaDeAplicacion\\CapaDeAplicacion.csproj": {
-                "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaDeAplicacion\\CapaDeAplicacion.csproj"
+              "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeAplicacion\\CapaDeAplicacion.csproj": {
+                "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeAplicacion\\CapaDeAplicacion.csproj"
               },
-              "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaDeDominio\\CapaDeDominio.csproj": {
-                "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaDeDominio\\CapaDeDominio.csproj"
+              "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeDominio\\CapaDeDominio.csproj": {
+                "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeDominio\\CapaDeDominio.csproj"
               }
             }
           }
@@ -197,14 +201,14 @@
         }
       }
     },
-    "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaDeAplicacion\\CapaDeAplicacion.csproj": {
+    "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeAplicacion\\CapaDeAplicacion.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaDeAplicacion\\CapaDeAplicacion.csproj",
+        "projectUniqueName": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeAplicacion\\CapaDeAplicacion.csproj",
         "projectName": "CapaDeAplicacion",
-        "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaDeAplicacion\\CapaDeAplicacion.csproj",
+        "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeAplicacion\\CapaDeAplicacion.csproj",
         "packagesPath": "C:\\Users\\alanm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaDeAplicacion\\obj\\",
+        "outputPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeAplicacion\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -225,8 +229,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaDeDominio\\CapaDeDominio.csproj": {
-                "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaDeDominio\\CapaDeDominio.csproj"
+              "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeDominio\\CapaDeDominio.csproj": {
+                "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeDominio\\CapaDeDominio.csproj"
               }
             }
           }
@@ -241,9 +245,25 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "MercadoPagoCore": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[12.0.3, )"
+            },
+            "mercadopago-sdk": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "ppioli.MercadoPago-SDK": {
+              "target": "Package",
+              "version": "[1.0.0, )"
             }
           },
           "imports": [
@@ -265,14 +285,14 @@
         }
       }
     },
-    "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaDeDominio\\CapaDeDominio.csproj": {
+    "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeDominio\\CapaDeDominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaDeDominio\\CapaDeDominio.csproj",
+        "projectUniqueName": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeDominio\\CapaDeDominio.csproj",
         "projectName": "CapaDeDominio",
-        "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaDeDominio\\CapaDeDominio.csproj",
+        "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeDominio\\CapaDeDominio.csproj",
         "packagesPath": "C:\\Users\\alanm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\CapaDeDominio\\obj\\",
+        "outputPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeDominio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

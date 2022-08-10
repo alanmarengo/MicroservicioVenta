@@ -24,11 +24,11 @@ namespace API_Venta.Controllers
 
         [Route("InsertarVenta")]
         [HttpPost]
-        public IActionResult InsertarCarritoCliente(int carritoID)
+        public IActionResult InsertarCarritoCliente(int carritoID, string precio)
         {
             try
             {
-                return new JsonResult(_servicio.InsertarVenta(carritoID)) { StatusCode = 201 };
+                return new JsonResult(_servicio.InsertarVenta(carritoID, precio)) { StatusCode = 201 };
 
             }
             catch (System.Exception e)
@@ -38,7 +38,21 @@ namespace API_Venta.Controllers
             }
         }
 
+        [Route("UpdateVenta")]
+        [HttpPost]
+        public IActionResult UpdateVenta(int ventaID, string state)
+        {
+            try
+            {
+                return new JsonResult(_servicio.UpdateVenta(ventaID, state)) { StatusCode = 201 };
 
+            }
+            catch (System.Exception e)
+            {
+                return BadRequest(e.Message);
+
+            }
+        }
 
 
 

@@ -21,6 +21,7 @@ using CapaDeDominio.Queries;
 using System.Data;
 using System.Data.SqlClient;
 using SqlKata.Compilers;
+using MercadoPago;
 
 namespace API_Venta
 {
@@ -33,6 +34,8 @@ namespace API_Venta
 
         public IConfiguration Configuration { get; }
 
+
+
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
@@ -42,11 +45,12 @@ namespace API_Venta
                                                             .AllowAnyMethod()
                                                             .AllowAnyHeader());
             });
-
+            SDK.AccessToken = Configuration.GetSection("MercadoPago:AccesToken").Value;
             services.AddControllers();
             var conecctionString = Configuration.GetSection("ConnectionString").Value;
             services.AddDbContext<DatoDbContext>(option => option.UseSqlServer(conecctionString));
             services.AddTransient<IGenericRepository, GenericsRepository>();
+            services.AddTransient<IMercadoPagoService, MercadoPagoService>();
             //SQL kata
             services.AddTransient<Compiler, SqlServerCompiler>();
             services.AddTransient<IDbConnection>(b =>
@@ -65,6 +69,7 @@ namespace API_Venta
 
 
         }
+
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)

@@ -14,7 +14,8 @@ namespace CapaDeAplicacion.Services
     public interface IVentaService
     {
 
-        Venta InsertarVenta(int carritoID);
+        ResponseCreateSaleDto InsertarVenta(int carritoID, string precio);
+        VentaUpdateResponseDto UpdateVenta(int ventaID, string state);
 
 
     }
@@ -22,27 +23,37 @@ namespace CapaDeAplicacion.Services
     {
         private readonly IGenericRepository _repository;
         private readonly IQueryVenta query;
+        private readonly IMercadoPagoService mercadoPagoService;
 
-        public VentaService(IGenericRepository repository)
-        {
-            _repository = repository;
-        }
-
-        public VentaService(IGenericRepository repository, IQueryVenta query)
+        public VentaService(IGenericRepository repository, IQueryVenta query, IMercadoPagoService mercadoPagoService)
         {
             _repository = repository;
             this.query = query;
+            this.mercadoPagoService = mercadoPagoService;
         }
 
-        public Venta InsertarVenta(int carritoID)
+        public ResponseCreateSaleDto InsertarVenta(int carritoID, string precio)
         {
             Venta venta = new Venta()
             {
-                FechaVenta=DateTime.Today,
-                Id_carrito=carritoID
+                FechaVenta = DateTime.Today,
+                Id_carrito = carritoID,
+                Aprobada = false
             };
 
-            return _repository.Add<Venta>(venta);
+            string urlPago = mercadoPagoService.GetInitPoint(precio);
+            var sale= _repository.Add<Venta>(venta);
+
+            return new ResponseCreateSaleDto {IdSale=sale.VentaId, UrlPayment=urlPago };
+        }
+
+        public VentaUpdateResponseDto UpdateVenta(int ventaID, string state)
+        {
+            var sale = _repository.GetBy<Venta>(ventaID);
+            sale.Aprobada = state == "approved" ? true : false;
+            _repository.Update<Venta>(sale);
+
+            return new VentaUpdateResponseDto { Id = sale.VentaId, state = state, FechaUpdate = DateTime.Now};
         }
     }
 }

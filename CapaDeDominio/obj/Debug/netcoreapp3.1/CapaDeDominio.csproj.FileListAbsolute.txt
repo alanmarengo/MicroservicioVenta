@@ -55,3 +55,13 @@ C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microse
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\CapaDeDominio\obj\Debug\netcoreapp3.1\CapaDeDominio.csproj.CoreCompileInputs.cache
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\CapaDeDominio\obj\Debug\netcoreapp3.1\CapaDeDominio.dll
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\CapaDeDominio\obj\Debug\netcoreapp3.1\CapaDeDominio.pdb
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeDominio\bin\Debug\netcoreapp3.1\CapaDeDominio.deps.json
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeDominio\bin\Debug\netcoreapp3.1\CapaDeDominio.dll
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeDominio\bin\Debug\netcoreapp3.1\CapaDeDominio.pdb
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeDominio\obj\Debug\netcoreapp3.1\CapaDeDominio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeDominio\obj\Debug\netcoreapp3.1\CapaDeDominio.AssemblyInfoInputs.cache
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeDominio\obj\Debug\netcoreapp3.1\CapaDeDominio.AssemblyInfo.cs
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeDominio\obj\Debug\netcoreapp3.1\CapaDeDominio.csproj.CoreCompileInputs.cache
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeDominio\obj\Debug\netcoreapp3.1\CapaDeDominio.dll
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeDominio\obj\Debug\netcoreapp3.1\CapaDeDominio.pdb
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeDominio\obj\Debug\netcoreapp3.1\CapaDeDominio.csproj.AssemblyReference.cache
