@@ -40,6 +40,15 @@ namespace TEST_VENTA
         }
 
 
+        [Test]
+        public void UpdateVenta()
+        {
+            var sale = ventaService.UpdateVenta(8,"approved");
+            Assert.IsNotNull(sale);
+        }
+
+
+
 
 
     }
