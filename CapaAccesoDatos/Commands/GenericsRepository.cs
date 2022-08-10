@@ -65,19 +65,11 @@ namespace CapaAccesoDatos.Commands
         }
        
 
-        public bool Update<T>(T entity) where T : class
+        public T Update<T>(T entity) where T : class
         {
-            if(entity != null)
-            {
-                _context.Entry(entity).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                _context.Update<T>(entity);
                 _context.SaveChanges();
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-            
+                return entity;
         }
 
         

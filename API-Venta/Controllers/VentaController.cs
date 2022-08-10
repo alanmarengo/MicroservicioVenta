@@ -16,19 +16,21 @@ namespace API_Venta.Controllers
     public class VentaController : ControllerBase
     {
         private readonly IVentaService _servicio;
-        public VentaController(IVentaService servicio)
+        private readonly IMercadoPagoService _mercadoPagoService;
+
+        public VentaController(IVentaService servicio, IMercadoPagoService mercadoPagoService)
         {
             _servicio = servicio;
+            _mercadoPagoService = mercadoPagoService;
         }
-
 
         [Route("InsertarVenta")]
         [HttpPost]
-        public IActionResult InsertarCarritoCliente(int carritoID, string precio)
+        public IActionResult InsertarCarritoCliente(int carritoID)
         {
             try
             {
-                return new JsonResult(_servicio.InsertarVenta(carritoID, precio)) { StatusCode = 201 };
+                return new JsonResult(_servicio.InsertarVenta(carritoID)) { StatusCode = 201 };
 
             }
             catch (System.Exception e)
@@ -53,6 +55,26 @@ namespace API_Venta.Controllers
 
             }
         }
+
+
+        [Route("GetUrlPayment")]
+        [HttpGet]
+        public IActionResult GetUrlPayment(string price)
+        {
+            try
+            {
+                return new JsonResult(_mercadoPagoService.GetInitPoint(price)) { StatusCode = 200 };
+
+            }
+            catch (System.Exception e)
+            {
+                return BadRequest(e.Message);
+
+            }
+        }
+
+
+
 
 
 

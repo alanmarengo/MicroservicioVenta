@@ -13,45 +13,34 @@ namespace CapaDeAplicacion.Services
 
     public interface IVentaService
     {
-
-        ResponseCreateSaleDto InsertarVenta(int carritoID, string precio);
-        VentaUpdateResponseDto UpdateVenta(int ventaID, string state);
-
-
+        Venta InsertarVenta(int carritoID);
+        Venta UpdateVenta(int ventaID, string state);
     }
     public class VentaService : IVentaService
     {
         private readonly IGenericRepository _repository;
-        private readonly IMercadoPagoService mercadoPagoService;
 
-        public VentaService(IGenericRepository repository, IMercadoPagoService mercadoPagoService)
+        public VentaService(IGenericRepository repository)
         {
             _repository = repository;
-            this.mercadoPagoService = mercadoPagoService;
         }
 
-        public ResponseCreateSaleDto InsertarVenta(int carritoID, string precio)
+        public Venta InsertarVenta(int carritoID)
         {
             Venta venta = new Venta()
             {
-                FechaVenta = DateTime.Parse(DateTime.Now.ToString("MM/dd/yyyy")),
+                FechaVenta = DateTime.Now,
                 Id_carrito = carritoID,
                 Aprobada = false
             };
-
-            string urlPago = mercadoPagoService.GetInitPoint(precio);
-            var sale= _repository.Add<Venta>(venta);
-
-            return new ResponseCreateSaleDto {IdSale=sale.VentaId, UrlPayment=urlPago };
+            return _repository.Add<Venta>(venta);
         }
 
-        public VentaUpdateResponseDto UpdateVenta(int ventaID, string state)
+        public Venta UpdateVenta(int ventaID, string state)
         {
             var sale = _repository.GetBy<Venta>(ventaID);
             sale.Aprobada = state == "approved" ? true : false;
-            _repository.Update<Venta>(sale);
-
-            return new VentaUpdateResponseDto { Id = sale.VentaId, state = state, FechaUpdate = DateTime.Now};
+            return _repository.Update<Venta>(sale);
         }
     }
 }

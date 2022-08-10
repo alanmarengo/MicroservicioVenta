@@ -64,3 +64,4 @@ C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microse
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeDominio\obj\Debug\netcoreapp3.1\CapaDeDominio.csproj.CoreCompileInputs.cache
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeDominio\obj\Debug\netcoreapp3.1\CapaDeDominio.dll
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeDominio\obj\Debug\netcoreapp3.1\CapaDeDominio.pdb
+C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeDominio\obj\Debug\netcoreapp3.1\CapaDeDominio.csproj.AssemblyReference.cache

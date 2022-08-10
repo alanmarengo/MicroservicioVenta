@@ -16,6 +16,17 @@ namespace CapaAccesoDatos
         {
 
         }
+
+        public DatoDbContext()
+        {
+
+        }
+
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseSqlServer("Server=DESKTOP-B7GFJSO;Database=VentasDB;Uid=sa;Pwd='alanabcdA1'",
+                options => { });
+        }
        
 
     }
