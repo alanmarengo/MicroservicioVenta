@@ -22,13 +22,11 @@ namespace CapaDeAplicacion.Services
     public class VentaService : IVentaService
     {
         private readonly IGenericRepository _repository;
-        private readonly IQueryVenta query;
         private readonly IMercadoPagoService mercadoPagoService;
 
-        public VentaService(IGenericRepository repository, IQueryVenta query, IMercadoPagoService mercadoPagoService)
+        public VentaService(IGenericRepository repository, IMercadoPagoService mercadoPagoService)
         {
             _repository = repository;
-            this.query = query;
             this.mercadoPagoService = mercadoPagoService;
         }
 
@@ -36,7 +34,7 @@ namespace CapaDeAplicacion.Services
         {
             Venta venta = new Venta()
             {
-                FechaVenta = DateTime.Today,
+                FechaVenta = DateTime.Parse(DateTime.Now.ToString("MM/dd/yyyy")),
                 Id_carrito = carritoID,
                 Aprobada = false
             };
