@@ -35,16 +35,24 @@ namespace TEST_VENTA
         [Test]
         public void CrearVenta()
         {
-            var sale = ventaService.InsertarVenta(150);
-            Assert.IsNotNull(sale);
+            using (var trans = db.Database.BeginTransaction())
+            {
+                var sale = ventaService.InsertarVenta(150);
+                Assert.IsNotNull(sale);
+                trans.Rollback();
+            }
         }
 
 
         [Test]
         public void UpdateVenta()
         {
-            var sale = ventaService.UpdateVenta(8,"approved");
-            Assert.IsNotNull(sale);
+            using (var trans = db.Database.BeginTransaction())
+            {
+                var sale = ventaService.UpdateVenta(8, "approved");
+                Assert.IsNotNull(sale);
+                trans.Rollback();
+            }
         }
 
 
