@@ -14,7 +14,7 @@ using System.Text;
 namespace TEST_VENTA
 {
     [TestFixture]
-    public class VentaServiceTest
+    public class VentaServiceTest: BaseTEST_VENTA
     {
 
         DatoDbContext db;
@@ -24,7 +24,7 @@ namespace TEST_VENTA
         [SetUp]
         public void Setup()
         {
-            db = new DatoDbContext();
+            db = ConstruirContexto();
             genericsRepository = new GenericsRepository(db);
             ventaService = new VentaService(genericsRepository);
         }
