@@ -3,6 +3,7 @@ using CapaAccesoDatos.Commands;
 using CapaDeAplicacion.Services;
 using CapaDeDominio.Commands;
 using CapaDeDominio.Entity;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using NUnit.Framework;
 using System;
@@ -38,11 +39,29 @@ namespace TEST_VENTA
             using (var trans = db.Database.BeginTransaction())
             {
                 var sale = ventaService.InsertarVenta(150);
-                Assert.IsNotNull(sale);
+                NUnit.Framework.Assert.IsNotNull(sale);
                 trans.Rollback();
             }
         }
 
+
+
+        [Test]
+        [ExpectedException(typeof(FormatException))]
+        public void CrearVentaConCaracterInvalido()
+        {
+            using (var trans = db.Database.BeginTransaction())
+            {
+                try
+                {
+                    var sale = ventaService.InsertarVenta(int.Parse("PROYECTO"));
+                }
+                catch(Exception ex) 
+                {
+                    
+                }
+            }
+        }
 
         [Test]
         public void UpdateVenta()
@@ -50,12 +69,29 @@ namespace TEST_VENTA
             using (var trans = db.Database.BeginTransaction())
             {
                 var sale = ventaService.UpdateVenta(8, "approved");
-                Assert.IsNotNull(sale);
+                NUnit.Framework.Assert.IsNotNull(sale);
                 trans.Rollback();
             }
         }
 
+        [Test]
+        [ExpectedException(typeof(FormatException))]
+        public void UpdateVentaConCaracterVentaInvalido()
+        {
+            using (var trans = db.Database.BeginTransaction())
+            {
+                try
+                {
 
+                    var sale = ventaService.UpdateVenta(int.Parse("PROYECTO"), "approved");
+                    trans.Rollback();
+                }
+                catch (Exception ex)
+                {
+
+                }
+            }
+        }
 
 
 

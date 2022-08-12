@@ -1,6 +1,7 @@
 ﻿using CapaDeAplicacion.Services;
 using MercadoPago;
 using Microsoft.Extensions.Configuration;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using NUnit.Framework;
 using System;
@@ -29,7 +30,23 @@ namespace TEST_VENTA
         public void GetUrlPayment()
         {
             var urlPayment = mercadoPagoService.GetInitPoint("1500");
-            Assert.IsNotNull(urlPayment);
+            NUnit.Framework.Assert.IsNotNull(urlPayment);
+        }
+
+
+        [Test]
+        [ExpectedException(typeof(FormatException))]
+        public void GetUrlPaymentWithInvalidPrice()
+        {
+            try
+            {
+                var urlPayment = mercadoPagoService.GetInitPoint("PROYECTO");
+                NUnit.Framework.Assert.IsNotNull(urlPayment);
+            }
+            catch (Exception ex)
+            {
+
+            }
         }
     }
 }
