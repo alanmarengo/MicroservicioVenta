@@ -86,3 +86,16 @@ C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microse
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.csproj.CopyComplete
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.dll
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.pdb
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaDeAplicacion\bin\Debug\netcoreapp3.1\CapaDeAplicacion.deps.json
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaDeAplicacion\bin\Debug\netcoreapp3.1\CapaDeAplicacion.dll
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaDeAplicacion\bin\Debug\netcoreapp3.1\CapaDeAplicacion.pdb
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaDeAplicacion\bin\Debug\netcoreapp3.1\CapaDeDominio.dll
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaDeAplicacion\bin\Debug\netcoreapp3.1\CapaDeDominio.pdb
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.csproj.AssemblyReference.cache
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.AssemblyInfoInputs.cache
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.AssemblyInfo.cs
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.csproj.CopyComplete
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.dll
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaDeAplicacion\obj\Debug\netcoreapp3.1\CapaDeAplicacion.pdb

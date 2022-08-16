@@ -8,23 +8,25 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\alanm\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\mayala\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeDominio\\CapaDeDominio.csproj",
+      "projectUniqueName": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioVenta\\CapaDeDominio\\CapaDeDominio.csproj",
       "projectName": "CapaDeDominio",
-      "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeDominio\\CapaDeDominio.csproj",
-      "packagesPath": "C:\\Users\\alanm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeDominio\\obj\\",
+      "projectPath": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioVenta\\CapaDeDominio\\CapaDeDominio.csproj",
+      "packagesPath": "C:\\Users\\mayala\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioVenta\\CapaDeDominio\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\alanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -65,7 +67,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
       }
     }
   }

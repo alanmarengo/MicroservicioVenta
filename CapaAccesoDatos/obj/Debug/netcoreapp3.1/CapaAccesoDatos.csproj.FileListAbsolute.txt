@@ -119,3 +119,21 @@ C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microse
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.dll
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.pdb
 C:\Users\alanm\Documents\PS\Pagina-web-Proyecto-final-master\Repositorio Microservicios\MicroservicioVenta\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.genruntimeconfig.cache
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaAccesoDatos\bin\Debug\netcoreapp3.1\CapaAccesoDatos.deps.json
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaAccesoDatos\bin\Debug\netcoreapp3.1\CapaAccesoDatos.runtimeconfig.json
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaAccesoDatos\bin\Debug\netcoreapp3.1\CapaAccesoDatos.runtimeconfig.dev.json
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaAccesoDatos\bin\Debug\netcoreapp3.1\CapaAccesoDatos.dll
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaAccesoDatos\bin\Debug\netcoreapp3.1\CapaAccesoDatos.pdb
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaAccesoDatos\bin\Debug\netcoreapp3.1\CapaDeAplicacion.dll
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaAccesoDatos\bin\Debug\netcoreapp3.1\CapaDeDominio.dll
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaAccesoDatos\bin\Debug\netcoreapp3.1\CapaDeAplicacion.pdb
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaAccesoDatos\bin\Debug\netcoreapp3.1\CapaDeDominio.pdb
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.csproj.AssemblyReference.cache
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.AssemblyInfoInputs.cache
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.AssemblyInfo.cs
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.csproj.CopyComplete
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.dll
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.pdb
+C:\Users\mayala\Desktop\Matias\Unaj\proyecto\TP\MicroservicioVenta\CapaAccesoDatos\obj\Debug\netcoreapp3.1\CapaAccesoDatos.genruntimeconfig.cache

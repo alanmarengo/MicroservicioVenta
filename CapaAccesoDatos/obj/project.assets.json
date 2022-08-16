@@ -7420,23 +7420,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alanm\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\mayala\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaAccesoDatos\\CapaAccesoDatos.csproj",
+      "projectUniqueName": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioVenta\\CapaAccesoDatos\\CapaAccesoDatos.csproj",
       "projectName": "CapaAccesoDatos",
-      "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaAccesoDatos\\CapaAccesoDatos.csproj",
-      "packagesPath": "C:\\Users\\alanm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaAccesoDatos\\obj\\",
+      "projectPath": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioVenta\\CapaAccesoDatos\\CapaAccesoDatos.csproj",
+      "packagesPath": "C:\\Users\\mayala\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioVenta\\CapaAccesoDatos\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\alanm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mayala\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -7451,11 +7453,11 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeAplicacion\\CapaDeAplicacion.csproj": {
-              "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeAplicacion\\CapaDeAplicacion.csproj"
+            "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioVenta\\CapaDeAplicacion\\CapaDeAplicacion.csproj": {
+              "projectPath": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioVenta\\CapaDeAplicacion\\CapaDeAplicacion.csproj"
             },
-            "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeDominio\\CapaDeDominio.csproj": {
-              "projectPath": "C:\\Users\\alanm\\Documents\\PS\\Pagina-web-Proyecto-final-master\\Repositorio Microservicios\\MicroservicioVenta\\CapaDeDominio\\CapaDeDominio.csproj"
+            "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioVenta\\CapaDeDominio\\CapaDeDominio.csproj": {
+              "projectPath": "C:\\Users\\mayala\\Desktop\\Matias\\Unaj\\proyecto\\TP\\MicroservicioVenta\\CapaDeDominio\\CapaDeDominio.csproj"
             }
           }
         }
@@ -7508,7 +7510,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.108\\RuntimeIdentifierGraph.json"
       }
     }
   }

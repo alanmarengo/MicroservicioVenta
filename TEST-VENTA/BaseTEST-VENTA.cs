@@ -13,7 +13,7 @@ namespace TEST_VENTA
         {
             if (db==null)
             {
-                var opciones = new DbContextOptionsBuilder<DatoDbContext>().UseSqlServer("Server=DESKTOP-B7GFJSO;Database=VentasDB;Uid=sa;Pwd='alanabcdA1'",
+                var opciones = new DbContextOptionsBuilder<DatoDbContext>().UseSqlServer("Server=NTB707\\SQLEXPRESS;Database=VentasDB;Uid=sa;Pwd='Emerix01';",
                 options => { }).Options;
                 db= new DatoDbContext(opciones);
                 return db;
